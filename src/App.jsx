@@ -1,21 +1,30 @@
+import Header from "./Component/Header"
 import About from "./Component/About"
 import Contact from "./Component/Contact"
-import Hero from "./Component/Hero"
-import Navbar from "./Component/Navbar"
-import Projects from "./Component/Project"
-import Skills from "./Component/Skill"
+import Projects from "./Component/Projects"
+import Skill from "./Component/Skill"
+import Footer from "./Component/Footer"
 
 
-const App = () => {
+
+const App =() => {
   return (
-<div>
-<Navbar/>
-<Hero/>
+    <>
+    <div className="sm:px-5">
+
+<Header/>
 <About/>
-<Skills/>
+<Skill/>
 <Projects/>
 <Contact/>
+<Footer/>
+
+
     </div>
+    
+    
+    </>
   )
 }
-export default App;
+
+export default App
