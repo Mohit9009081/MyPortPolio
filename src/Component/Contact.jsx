@@ -39,7 +39,7 @@ const Contact =()=> {
               </div>
               <div>
                 <p className="text-sm text-gray-400">Email</p>
-                <p className="font-medium">mohit@example.com</p>
+                <p className="font-medium">webmohit576@gmail.com</p>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ const Contact =()=> {
               </div>
               <div>
                 <p className="text-sm text-gray-400">Phone</p>
-                <p className="font-medium">+91 98765 43210</p>
+                <p className="font-medium">+91 9009081718</p>
               </div>
             </div>
 
@@ -61,7 +61,7 @@ const Contact =()=> {
               </div>
               <div>
                 <p className="text-sm text-gray-400">Location</p>
-                <p className="font-medium">India</p>
+                <p className="font-medium">Narmadapuram ( M.P. ) India</p>
               </div>
             </div>
 
@@ -82,7 +82,7 @@ const Contact =()=> {
                 <label className="text-sm text-gray-400">Your Name</label>
                 <input
                   type="text"
-                  placeholder="John Doe"
+                  placeholder="enter your name"
                   className="mt-2 w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3 focus:outline-none focus:border-pink-400"
                 />
               </div>
@@ -91,7 +91,7 @@ const Contact =()=> {
                 <label className="text-sm text-gray-400">Your Email</label>
                 <input
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="email@example.com"
                   className="mt-2 w-full rounded-xl bg-white/5 border border-white/10 px-4 py-3 focus:outline-none focus:border-pink-400"
                 />
               </div>

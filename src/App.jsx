@@ -10,17 +10,14 @@ import Footer from "./Component/Footer"
 const App =() => {
   return (
     <>
-    <div className="sm:px-5">
-
+<div className="sm:px-2">
 <Header/>
 <About/>
 <Skill/>
 <Projects/>
 <Contact/>
 <Footer/>
-
-
-    </div>
+</div>
     
     
     </>

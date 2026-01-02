@@ -41,13 +41,13 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="md:hidden bg-black/60 backdrop-blur-xl px-6 py-6 space-y-4">
+          <div className="md:hidden bg-gray-700/50 backdrop-blur-xl  absolute right-1 px-10 py-2 space-y-4">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="block text-gray-300 hover:text-white"
+                className="block text-gray-200 hover:text-emerald-400"
               >
                 {link.name}
               </a>
@@ -99,7 +99,7 @@ const Header = () => {
               <p className="mb-4 text-gray-300">Connect with me</p>
               <div className="grid grid-cols-3 gap-4">
 
-                <a href="https://github.com/"
+                <a href=" https://github.com/Mohit9009081 "
                   target="_blank" className="h-14 rounded-xl bg-white/5 flex items-center justify-center hover:bg-white/10"><Github /></a>
 
                 <a href="https://www.linkedin.com/in/mohit-web-developer/"

@@ -51,21 +51,21 @@ const Footer=()=> {
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="https://github.com/"
+                href="https://github.com/Mohit9009081"
                 target="_blank"
                 className="h-10 w-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-pink-500/20 hover:text-pink-400 transition"
               >
                 <Github size={18} />
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/mohit-web-developer/"
                 target="_blank"
                 className="h-10 w-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-blue-500/20 hover:text-blue-400 transition"
               >
                 <Linkedin size={18} />
               </a>
               <a
-                href="mailto:mohit@example.com"
+                href="mailto:webmohit@gmail.com"
                 className="h-10 w-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-yellow-500/20 hover:text-yellow-400 transition"
               >
                 <Mail size={18} />

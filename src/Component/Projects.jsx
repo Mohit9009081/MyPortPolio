@@ -59,30 +59,30 @@ const MiniProject = ({ title, tech }) => {
 export default function Projects() {
   const featuredProjects = [
     {
-      title: "E-Commerce Platform",
+      title: "Digiting Card",
       desc:
-        "A full-featured online shopping platform with cart functionality, authentication, and payment integration.",
-      tags: ["React", "Redux", "Tailwind", "Node.js"],
+        "Worked on a Digital Visiting Card web application for business owners, employees, and service professionals.",
+      tags: ["React", "Tailwind", "Node.js"],
     },
     {
-      title: "Task Management App",
+      title: "Notes Management App",
       desc:
-        "Productivity app with drag-and-drop, real-time updates, and team collaboration features.",
-      tags: ["React", "TypeScript", "Firebase"],
+       	"Developed a Notes App that allows users to create, view, and manage notes with title and description",
+      tags: ["React", "javaScript", "Tailwind"],
     },
     {
       title: "Portfolio Website",
       desc:
-        "Modern, responsive portfolio with smooth animations and dark mode support.",
-      tags: ["React", "Tailwind", "Framer Motion"],
+        "Designed and developed a modern, fully responsive personal portfolio website",
+      tags: ["React", "Tailwind"],
     },
   ];
 
   const otherProjects = [
-    { title: "Weather Dashboard", tech: "React, API" },
-    { title: "Blog Platform", tech: "Node.js, MongoDB" },
-    { title: "Social Dashboard", tech: "React, Recharts" },
-    { title: "Chat Application", tech: "Socket.io, Express" },
+    { title: "Electric scooter website", tech: "React, Tailwind" },
+    { title: "Clone of JustDial Website", tech: "html, css" },
+    { title: "Form Submit with Validations", tech: "React, Tailwind" },
+     { title: "GST Calculator", tech: "React, Javascript"},
   ];
 
   return (
@@ -127,7 +127,7 @@ export default function Projects() {
 
         {/* GitHub Button */}
         <div className="text-center">
-          <a className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/20 hover:bg-white/10">
+          <a href="https://github.com/Mohit9009081 " className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/20 hover:bg-white/10">
             🐙 View All on GitHub
           </a>
         </div>

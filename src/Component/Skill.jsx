@@ -1,14 +1,18 @@
+import { AiFillHtml5 } from "react-icons/ai";
+import { FaNodeJs, FaReact } from "react-icons/fa";
+import { SiExpress, SiJavascript, SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
+
 /* ================= SKILLS SECTION ================= */
 const Skill =() => {
   const skills = [
-    { name: 'HTML', level: '95%', icon: '🌐' },
-    { name: 'CSS', level: '90%', icon: '🎨' },
-    { name: 'JavaScript', level: '88%', icon: '⚡' },
-    { name: 'React', level: '92%', icon: '⚛️' },
-    { name: 'Tailwind CSS', level: '90%', icon: '💨' },
-    { name: 'Redux', level: '80%', icon: '🔁' },
-    { name: 'Node.js', level: '75%', icon: '🟢' },
-    { name: 'Express', level: '75%', icon: '📘' },
+    { name: 'HTML', level: '95%', icon: <AiFillHtml5 size={100} className=""/> },
+    { name: 'JavaScript', level: '88%', icon: <SiJavascript  size={100} /> },
+    { name: 'React', level: '92%', icon: <FaReact  size={100} /> },
+    { name: 'Tailwind CSS', level: '90%', icon: <SiTailwindcss  size={100} /> },
+    { name: 'Redux', level: '80%', icon: <SiRedux  size={100} /> },
+    { name: 'Node.js', level: '75%', icon: <FaNodeJs size={100} /> },
+    { name: 'Express', level: '75%', icon: <SiExpress  size={100} /> },
+    { name: 'MonogoDB', level: '90%', icon: <SiMongodb  size={100} />},
   ];
 
   const tools = [
@@ -52,13 +56,13 @@ const Skill =() => {
             {skills.map((skill) => (
               <div
                 key={skill.name}
-                className="rounded-2xl p-6 bg-white/5 border border-white/10 hover:bg-white/10 transition"
+                className="rounded-2xl p-5 bg-white/5 border border-white/10 hover:bg-white/10 transition"
               >
-                <div className="flex items-center gap-2 mb-4 text-sm text-gray-300">
+                <div className="flex flex-col items-center gap-12 text-lg font-bold text-gray-300">
                   <span>{skill.icon}</span>
                   {skill.name}
                 </div>
-                <p className="text-3xl font-bold text-pink-400">{skill.level}</p>
+                {/* <p className="text-3xl font-bold text-pink-400">{skill.level}</p> */}
               </div>
             ))}
           </div>
