@@ -2,7 +2,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaNodeJs, FaReact } from "react-icons/fa";
 import { SiExpress, SiJavascript, SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
 
-/* ================= SKILLS SECTION ================= */
+
 const Skill =() => {
   const skills = [
     { name: 'HTML', level: '95%', icon: <AiFillHtml5 size={100} className=""/> },

@@ -17,9 +17,10 @@ const ProjectCard = ({ project }) => {
         <a className="h-9 w-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20">
           🐙
         </a>
-        <a className="h-9 w-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20">
+          <a href={project.link} target="_blank" className="h-9 w-9 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20">
           🔗
         </a>
+      
       </div>
 
       <h3 className="text-xl font-semibold mt-10 mb-3">
@@ -48,6 +49,7 @@ const ProjectCard = ({ project }) => {
 const MiniProject = ({ title, tech }) => {
   return (
     <div className="rounded-2xl p-5 bg-white/5 border border-white/10 hover:bg-white/10 transition">
+      
       <p className="font-medium">{title}</p>
       <p className="text-sm text-gray-400 mt-1">{tech}</p>
     </div>
@@ -63,18 +65,21 @@ export default function Projects() {
       desc:
         "Worked on a Digital Visiting Card web application for business owners, employees, and service professionals.",
       tags: ["React", "Tailwind", "Node.js"],
+        link:"https://digitingcard.com/"
     },
     {
       title: "Notes Management App",
       desc:
        	"Developed a Notes App that allows users to create, view, and manage notes with title and description",
       tags: ["React", "javaScript", "Tailwind"],
+      link:"https://notes-app-lac-mu.vercel.app/"
     },
     {
       title: "Portfolio Website",
       desc:
         "Designed and developed a modern, fully responsive personal portfolio website",
       tags: ["React", "Tailwind"],
+     link: "https://my-port-polio-ochre.vercel.app/",
     },
   ];
 
@@ -115,7 +120,7 @@ export default function Projects() {
         {/* Other Projects */}
         <div className="rounded-3xl p-8 bg-white/5 border border-white/10 mb-16">
           <h3 className="font-semibold mb-6 flex items-center gap-2">
-            <span className="text-pink-400">●</span> Other Notable Projects
+            <span className="text-pink-400">●</span> Other Noteable Projects
           </h3>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
